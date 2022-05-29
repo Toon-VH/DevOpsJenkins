@@ -14,7 +14,7 @@ spec:
       containers:
       - name: chat
         imagePullPolicy: IfNotPresent
-        image: jonkerscedric/devops:chat
+        image: toonvh/devops:chat
         ports:
           - containerPort: 3000
             name: http-web-svc
